@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Loader -->
+  <div id="loader">
+    <h1 class="loader-text">webX</h1>
+    <p class="welcome-text">Welcome to my portfolio</p>
+  </div>
+
+  <!-- Main Content -->
+  <div id="content" style="display: none;">
+    <!-- Your portfolio site here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  <header>
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="logo">webX</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+       <!--
+        <li><a href="#projects">Projects</a></li>
+        -->
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>webX</span></h1>
+        <p>A Full-Stack <span>Developer </span>passionate about creating modern web apps & also a<span> video & photo editor</span>.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <div class="hero-image">
+        <img src="img.jpg" alt="Profile picture of webX" />
+      </div>
+    </div>
+  </section>
+
+  
+
+<!-- About Section -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I’m a passionate editor and creative enthusiast who loves bringing ideas to life. 
+    Whether it’s <b>web development</b>, <b>web design</b>, <b>video editing</b>, 
+    <b>photo editing</b>, or <b>blog writing</b>, I focus on making content that’s 
+    both functional and visually engaging. This portfolio is just the beginning of 
+    my creative journey, and I’m excited to share my work with you.
+  </p>
+
+  
+ <!-- Social links -->
+<!-- Social links -->
+<div class="social-links">
+  <a href="https://www.instagram.com/prashant0.00" target="_blank" class="social-icon">
+    <i class="fa-brands fa-instagram"></i>
+    <span>prashant0.00</span>
+  </a>
+  <a href="https://www.facebook.com/share/16dB8HHhqW/" target="_blank" class="social-icon">
+    <i class="fa-brands fa-facebook"></i>
+    <span>webX</span>
+  </a>
+  <a href="tel:+977 9746895925" class="social-icon phone">
+    <i class="fa-solid fa-phone"></i>
+    <span>+977 9746895925</span>
+  </a>
+</div>
+<!--skill/service-->
+</div>  <section id="skills">
+  <h2>What I Do</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fas fa-code"></i>
+      <h3>Web Development</h3>
+      <p>Building responsive and dynamic websites using modern technologies.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-paint-brush"></i>
+      <h3>Web Designing</h3>
+      <p>Creating user-friendly, aesthetic, and engaging UI/UX designs.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-video"></i>
+      <h3>Video Editing</h3>
+      <p>Editing and producing professional videos with smooth transitions and effects.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-image"></i>
+      <h3>Photo Editing</h3>
+      <p>Enhancing and retouching photos for creative or professional use.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-pen-nib"></i>
+      <h3>Blog Writing</h3>
+      <p>Writing engaging blogs and SEO-friendly content to connect with audiences.</p>
+    </div>
+  </div>
+</section>
+<!--
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Image of a sample project" />
+        <h3>Project Title</h3>
+        <p>Short description about the project.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/project1.png" alt="Image of a another sample project" />
+        <h3>Another Project</h3>
+        <p>Another description for the project.</p>
+        <a href="#" target="_blank">View Project</a>
+      </div>
+    </div>
+  </section>
+-->
+<!--contact-->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Fill out the form below and I’ll get back to you as soon as possible.</p>
+
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <!-- Your real access key -->
+    <input type="hidden" name="access_key" value="2708599b-3ac9-40b0-bc16-79ddf9a77419">
+
+    <!-- Form fields -->
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <!-- Optional: redirect after submission -->
+    <input type="hidden" name="redirect" value="thankyou.html">
+
+    <button type="submit">Send Message</button>
+  </form>
+</section>  <footer>
+    <p>© 2025 webX. All rights reserved.</p>
+    <div class="social-links">
+        <a href="#" aria-label="LinkedIn profile"><i class="fab fa-linkedin"></i></a>
+        <a href="prashant-webX" aria-label="Github profile"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="Twitter profile"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
